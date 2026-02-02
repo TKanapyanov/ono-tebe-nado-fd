@@ -40,15 +40,19 @@ button {
 .header {
   padding: 50px;
 }
+
 .cover {
   background-image: url(../images/cover.jpg);
 }
+
 .lots {
-  margin: 180px 24px 0px;
+  margin: 180px 24px 0;
 }
+
 .about {
   margin: 120px 24px;
 }
+
 .footer {
   padding: 0 50px 80px;
 }
