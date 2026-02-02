@@ -56,7 +56,7 @@
 .cover__title {
   position: relative;
   z-index: 1;
-  padding: 165px 50px;
+  padding: 165px 50px 106px;
   color: #ffffff;
   font-weight: 700;
   font-size: 110px;
@@ -75,7 +75,7 @@ span.aligned-text {
   text-align: right;
 }
 .letter-spacing-extended {
-  letter-spacing: 30px;
+  letter-spacing: 20px;
 }
 .no-letter-spacing {
   letter-spacing: 0;
@@ -86,7 +86,7 @@ span.aligned-text {
   display: flex;
   align-items: center;
   gap: 107px;
-  padding: 50px;
+  padding: 0 50px;
   color: #ffffff;
   font-weight: 400;
   font-size: 22px;
@@ -94,7 +94,7 @@ span.aligned-text {
 }
 p.cover__description-text {
   line-height: 28px;
-  word-spacing: 18px;
+  word-spacing: 20px;
   white-space: nowrap;
 }
 .bet-button {
@@ -172,12 +172,13 @@ p.cover__description-text {
   display: block;
   margin-top: 30px;
   margin-left: 40px;
+  font-size: 20px;
 }
 
 .about {
   display: grid;
   grid-template-columns: 334px auto;
-  gap: 72px;
+  gap: 30px;
 }
 .about__logo {
   display: flex;
@@ -185,13 +186,13 @@ p.cover__description-text {
   align-items: center;
   width: 240px;
   height: 240px;
-  margin: auto;
+  margin: 35px auto;
   border-radius: 50%;
   padding: 62px 45px;
   background-color: black;
 }
 .about__title {
-  margin: 133px 0 100px;
+  margin: 150px 0 110px;
   font-weight: 700;
   font-size: 40px;
   line-height: 24px;
@@ -228,6 +229,12 @@ p.cover__description-text {
 .footer__social-list {
   display: flex;
   justify-content: flex-end;
-  gap: 48px;
+  gap: 45px;
   list-style: none;
+  flex-direction: row-reverse;
+}
+.footer__social-link {
+  display: block;
+  width: 48px;
+  height: 48px;
 }
